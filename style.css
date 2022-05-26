@@ -1,30 +1,9 @@
-body{
-    background-color: grey;
-    height: 1000px;
+.top-section ul li{
+     display:inline ;
+    text-decoration: none;
     
-}
 
-     .a{
-         margin-right: 1000px;
-         color: wheat;
-     }
-     .b{
-         margin-right: 50px;
-         color: wheat;
-     }
-     .c{
-         background-color: wheat;
-         border: 1px solid wheat;
-     }
-     #a{
-         color: wheat;
-         text-align: center;
-     }
-     #s{
-         text-align: right;
-     }
-     .cl{
-         text-align: center;
-     }
+}
+     
 
      
