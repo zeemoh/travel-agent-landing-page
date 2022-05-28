@@ -1,9 +1,86 @@
-.top-section ul li{
-     display:inline ;
-    text-decoration: none;
-    
-
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
 }
-     
 
-     
+h1, h2, h3, h4, h5, p{
+  margin: 0 0!important;
+}
+
+.container {
+  display: flex;
+  width: 70rem;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.section-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    font-weight: 72px;
+    margin-bottom: 2rem!important;
+}
+
+.top-section ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.destination .destination-tabs-div{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.destination .destination-tabs-div .destination-tab{
+  height: 46px;
+  width: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00000080;
+  background: none;
+  cursor: pointer;
+}
+
+.destination .destination-tabs-div .destination-tab:hover{
+  color: #3E86F5;
+  background: #fff;
+}
+
+
+.destination .destination-tabs-div .destination-tab.active {
+  color: #3E86F5;
+  background: #fff;
+}
+
+.destination .destination-cards-div{
+  display: flex;
+  justify-content: center;
+  gap: .7rem;
+  margin-top: 2rem;
+}
+
+.destination-card{
+  height: 293px;
+  width: 280px;
+  background: #fff;
+  padding: .2rem;
+}
+
+.destination-card-top{
+  display: flex;
+  justify-content: center;
+  margin-top: .5rem;
+}
+
+.destination-card-bottom {
+   padding: .6rem;
+}
+
+
