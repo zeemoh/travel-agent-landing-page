@@ -69,6 +69,93 @@ ul {
   text-decoration: none;
 }
 
+
+
+
+
+
+.offer {
+  padding-top: 12rem;
+}
+
+.offer .offer-content h2 {
+  text-align: center;
+}
+
+.offer .offer-tabs-div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.offer .offer-tabs-div .offer-tab {
+  height: 46px;
+  width: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00000080;
+  background: none;
+  cursor: pointer;
+}
+
+.offer .offer-tabs-div .offer-tab:hover {
+  color: #3e86f5;
+  background: #fff;
+}
+
+.offer .offer-tabs-div .offer-tab.active {
+  color: #3e86f5;
+  background: #fff;
+}
+
+.offer .offer-cards-div {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+.offer-card {
+  height: 293px;
+  width: 280px;
+  background: #fff;
+  padding: 0.2rem;
+}
+
+.offer-card-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.offer-card-bottom {
+  padding: 1.5rem;
+}
+
+.ofer-card-bottom h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.offer-card-bottom p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #00000080;
+}
+
+
+
+
+
+
+
+
+
+
 .travel {
   padding-top: 12rem;
 }
